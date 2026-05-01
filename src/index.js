@@ -2,18 +2,6 @@ import React, { useMemo, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Phone, MapPin, ShoppingCart, Coffee, Cookie, Sandwich, Clock, Search, Filter, ExternalLink } from "lucide-react";
 
-/**
- * Wireframe goals implemented from the audit:
- * - Clear IA with persistent CTAs (Order, Call, Directions)
- * - Local SEO sections: Hours, NAP, Map, Schema.org JSON-LD
- * - Menu in HTML with category filters (no PDFs), accessible structure
- * - Performance-friendly: lazy images, explicit sizes, reduced JS, no heavy assets
- * - Accessibility: proper landmarks, headings, alt text, focus states, skip link
- * - Analytics hooks: data-attributes ready, demo console logging
- * - Legal links in footer
- * - Responsive, mobile-first; neutral wireframe styling via Tailwind
- */
-
 // Mock data for the wireframe menu
 const MENU = [
   { id: "m1", name: "Espresso", price: 3.5, category: "Bebidas", tags: ["Café"], img: "https://placehold.co/600x400?text=Espresso", desc: "Shot de espresso de tueste medio." },
